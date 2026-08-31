@@ -1,0 +1,25 @@
+# GitHub Pages / public repository
+_site/
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+*.token
+*.secret
+*.pem
+*.key
+
+# Instagram local-only state
+../drafts/
+../audit/
+../save_token_gui.py
+../instagram_publisher.py
+*.json
+
+# Development artifacts
+__pycache__/
+*.pyc
+*.tmp
+*.log
